@@ -14,10 +14,10 @@ export type FooterProps = HTMLAttributes<HTMLDivElement>;
 const FOOTER_LINKS = [
   { href: '/pricing', text: 'Pricing' },
   { href: '/singleplayer', text: 'Signature Request' },
-  { href: '/blog', text: 'Blog' },
-  { href: 'mailto:support@documenso.com', text: 'Support', target: '_blank' },
+  { href: 'mailto:raffine@gmail.com', text: 'Support', target: '_blank' },
   { href: '/careers', text: 'Careers' },
   { href: '/privacy', text: 'Privacy' },
+  { href: '/Ts & Cs', text: 'Ts & Cs' },
 ];
 
 export const Footer = ({ className, ...props }: FooterProps) => {
