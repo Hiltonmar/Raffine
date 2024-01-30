@@ -17,7 +17,7 @@ const FOOTER_LINKS = [
   { href: 'mailto:raffine@gmail.com', text: 'Support', target: '_blank' },
   { href: '/careers', text: 'Careers' },
   { href: '/privacy', text: 'Privacy' },
-  { href: '/Ts & Cs', text: 'Ts & Cs' },
+  { href: '/design', text: 'Ts&Cs' },
 ];
 
 export const Footer = ({ className, ...props }: FooterProps) => {
