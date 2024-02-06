@@ -39,7 +39,7 @@ export const Callout = ({ starCount }: CalloutProps) => {
       >
         Get the Early Adopters Plan
         <span className="bg-primary dark:text-background -mr-2.5 ml-2.5 rounded-full px-2 py-1.5 text-xs">
-          $10/mo. x 3 months!
+          $2/mo for 3 months!
         </span>
       </Button>
     </div>
