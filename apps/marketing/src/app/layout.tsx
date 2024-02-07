@@ -22,7 +22,7 @@ export const metadata = {
   description:
     'Join Raffine, the online signing infrastructure, and get a 10x better signing experience. Pricing starts at $5/mo. forever! Sign in now and enjoy a faster, smarter, and more beautiful document signing process. Integrates with your favorite tools, customizable, and expandable. Support our mission and become a part of our digital signing community.',
   keywords:
-    'Documenso, open source, DocuSign alternative, document signing, open signing infrastructure, open-source community, fast signing, beautiful signing, smart templates',
+    'Raffine, Digital, DocuSign alternative, document signing, digital signing infrastructure, digital Signatures community, fast signing, beautiful signing, smart templates',
   authors: { name: 'Documenso, Inc.' },
   robots: 'index, follow',
   openGraph: {

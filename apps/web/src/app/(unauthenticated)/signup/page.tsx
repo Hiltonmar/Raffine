@@ -15,7 +15,7 @@ export default function SignUpPage() {
       <h1 className="text-4xl font-semibold">Create a new account</h1>
 
       <p className="text-muted-foreground/60 mt-2 text-sm">
-        Create your account and start using state-of-the-art document signing. Open and beautiful
+        Create your account and start using state-of-the-art document signing. Digital and beautiful
         signing is within your grasp.
       </p>
 
