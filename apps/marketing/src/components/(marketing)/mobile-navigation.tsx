@@ -19,7 +19,7 @@ export type MobileNavigationProps = {
 export const MENU_NAVIGATION_LINKS = [
   {
     href: '/singleplayer',
-    text: 'Singleplayer',
+    text: 'Sign now',
   },
   {
     href: '/blog',
@@ -40,7 +40,7 @@ export const MENU_NAVIGATION_LINKS = [
     text: 'Privacy',
   },
   {
-    href: 'https://app.documenso.com/signin',
+    href: '/signin',
     text: 'Sign in',
   },
 ];
