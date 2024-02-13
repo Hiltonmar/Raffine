@@ -28,12 +28,12 @@ services:
       - NEXT_PUBLIC_WEBAPP_URL=http://localhost:3000
       - NEXTAUTH_SECRET=my-super-secure-secret
       - NEXTAUTH_URL=http://localhost:3000
-      - SENDGRID_API_KEY=
+      - SENDGRID_API_KEY=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
       - SMTP_MAIL_HOST=inbucket
       - SMTP_MAIL_PORT=2500
       - SMTP_MAIL_USER=username
       - SMTP_MAIL_PASSWORD=password
-      - MAIL_FROM=admin@example.com
+      - MAIL_FROM=noreply@raffine.site
     ports:
       - 3000:3000
     volumes:

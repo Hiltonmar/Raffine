@@ -30,7 +30,9 @@ export default function PricingPage() {
         <p className="text-foreground mt-4 text-lg leading-normal">
           Designed for every stage of your journey.
         </p>
-        <p className="text-foreground text-lg leading-normal">Get started today.</p>
+        <p className="text-foreground text-lg leading-normal">
+          Get started today for FREE (no credit card required).
+        </p>
       </div>
 
       <div className="mt-12">

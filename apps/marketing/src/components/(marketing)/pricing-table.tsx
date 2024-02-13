@@ -77,8 +77,12 @@ export const PricingTable = ({ className, ...props }: PricingTableProps) => {
           <p className="text-foreground text-4xl font-medium">PERSONAL</p>
 
           <AnimatePresence mode="wait">
-            {period === 'MONTHLY' && <p className="text-primary mt-2.5 text-xl font-medium">$5</p>}
-            {period === 'YEARLY' && <p className="text-primary mt-2.5 text-xl font-medium">$54</p>}
+            {period === 'MONTHLY' && (
+              <p className="text-primary mt-2.5 text-xl font-medium">$11.66</p>
+            )}
+            {period === 'YEARLY' && (
+              <p className="text-primary mt-2.5 text-xl font-medium">$125.93</p>
+            )}
           </AnimatePresence>
 
           <p className="text-foreground mt-4 max-w-[30ch] text-center">
@@ -96,7 +100,7 @@ export const PricingTable = ({ className, ...props }: PricingTableProps) => {
           </Button>
 
           <div className="mt-8 flex w-full flex-col divide-y">
-            <p className="text-foreground py-4">5 standard documents per month</p>
+            <p className="text-foreground py-4">15 standard documents per month</p>
             <p className="text-foreground py-4">Up to 10 recipients per document</p>
             <p className="text-foreground py-4">Resusable templates</p>
           </div>
@@ -112,8 +116,8 @@ export const PricingTable = ({ className, ...props }: PricingTableProps) => {
 
           <div className="text-primary mt-2.5 text-xl font-medium">
             <AnimatePresence mode="wait">
-              {period === 'MONTHLY' && <motion.div layoutId="pricing">$15/mo</motion.div>}
-              {period === 'YEARLY' && <motion.div layoutId="pricing">$162/yr</motion.div>}
+              {period === 'MONTHLY' && <motion.div layoutId="pricing">$28.00</motion.div>}
+              {period === 'YEARLY' && <motion.div layoutId="pricing">$302.40</motion.div>}
             </AnimatePresence>
           </div>
 
@@ -129,22 +133,13 @@ export const PricingTable = ({ className, ...props }: PricingTableProps) => {
             <p className="text-foreground py-4 font-medium">
               {' '}
               <a href="https://documenso.com/blog/early-adopters" target="_blank">
-                The Standard Deal:
+                All Personal Plan features, plus:
               </a>
             </p>
-            <p className="text-foreground py-4">Join the movement</p>
-            <p className="text-foreground py-4">Simple signing solution</p>
+            <p className="text-foreground py-4">Shared templates</p>
             <p className="text-foreground py-4">Collaborative commenting</p>
-            <p className="text-foreground py-4">Email Support</p>
-            <p className="text-foreground py-4">
-              <strong>
-                {' '}
-                <a href="https://documenso.com/blog/early-adopters" target="_blank">
-                  Includes all upcoming features
-                </a>
-              </strong>
-            </p>
-            <p className="text-foreground py-4">Fixed, straightforward pricing</p>
+            <p className="text-foreground py-4">Customized branding</p>
+            <p className="text-foreground py-4">24/7 Email Support</p>
           </div>
         </div>
 
@@ -155,8 +150,8 @@ export const PricingTable = ({ className, ...props }: PricingTableProps) => {
           <p className="text-foreground text-4xl font-medium">Enterprise</p>
           <div className="text-primary mt-2.5 text-xl font-medium">
             <AnimatePresence mode="wait">
-              {period === 'MONTHLY' && <motion.div layoutId="pricing">$30</motion.div>}
-              {period === 'YEARLY' && <motion.div layoutId="pricing">$324</motion.div>}
+              {period === 'MONTHLY' && <motion.div layoutId="pricing">$45.66</motion.div>}
+              {period === 'YEARLY' && <motion.div layoutId="pricing">$493.13</motion.div>}
             </AnimatePresence>
           </div>
 
@@ -164,22 +159,17 @@ export const PricingTable = ({ className, ...props }: PricingTableProps) => {
             For large organizations that need extra flexibility and control.
           </p>
 
-          <Link
-            href="https://dub.sh/enterprise"
-            target="_blank"
-            className="mt-6"
-            onClick={() => event('enterprise-contact')}
-          >
-            <Button className="rounded-full text-base">Signup Now</Button>
-          </Link>
+          <Button className="mt-6 rounded-full text-base" asChild>
+            <Link href={`${process.env.NEXT_PUBLIC_WEBAPP_URL}/signup`}>Signup Now</Link>
+          </Button>
 
           <div className="mt-8 flex w-full flex-col divide-y">
-            <p className="text-foreground py-4 font-medium">Everything in Early Adopters, plus:</p>
-            <p className="text-foreground py-4">Custom Subdomain</p>
-            <p className="text-foreground py-4">Power forms</p>
-            <p className="text-foreground py-4">Guaranteed Uptime</p>
+            <p className="text-foreground py-4 font-medium">All Standard Plan features, plus:</p>
+            <p className="text-foreground py-4">Signer attachments</p>
+            <p className="text-foreground py-4">Formulas & advanced fields</p>
+            <p className="text-foreground py-4">PowerForms</p>
             <p className="text-foreground py-4">Reporting & Analysis</p>
-            <p className="text-foreground py-4">24/7 Support</p>
+            <p className="text-foreground py-4">Payments</p>
             <p className="text-foreground py-4">Bulk send</p>
           </div>
         </div>
